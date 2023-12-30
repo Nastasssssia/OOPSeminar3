@@ -30,7 +30,7 @@ public class AccountControler {
      */
     public static <T extends Person> double averageAge(T[] persons) {
         if (persons == null || persons.length == 0) {
-            throw new IllegalArgumentException("Array is null or empty");
+            throw new IllegalArgumentException("Массив равен null или пуст");
         }
 
         double sumAge = 0;
